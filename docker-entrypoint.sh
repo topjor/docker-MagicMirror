@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ ! -f /opt/magic_mirror/modules ]; then
+if [ ! -f /opt/magic_mirror/modules/default ]; then
     cp -Rn /opt/default_modules/. /opt/magic_mirror/modules
 fi
 
